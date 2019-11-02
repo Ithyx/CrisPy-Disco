@@ -23,7 +23,7 @@ def initSheet():
 def initPlaylist(nextPageToken = ""):
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyCHvlL7SzcBvbjP9vm92qxH9-F07dDFPmA"
+    DEVELOPER_KEY = open("client.secret.txt", 'r').read()
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
     if nextPageToken == "":
