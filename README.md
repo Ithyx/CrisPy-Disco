@@ -14,5 +14,5 @@ To be able to use this script, you need a google application created [here](http
 *  For the `Youtube API`, you will simply get a OAuth2 token, that you sould be putting in a `client.secret.txt`, alongside `main.py`.
 After that, simply execute the script using `python main.py`.
 
-#Important:
+# Important:
 As the YouTube and Google SpreadSheet API will surely change in the future, I will probably not update this script. This was a script I made for a very specific purpose, and I will probably not feel the need to update it anymore. You are, however, free and encouraged to make pull requests to update it yourself.
