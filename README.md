@@ -1,5 +1,6 @@
 # CrisPy-Disco
 a small Python script that lists a youtube playlist into a google spreadsheet
+Yea, that was the proposed name for the repo, I have no originality, don't @ me.
 
 ## How to use ?
 requires python 3 with [pip](https://pypi.org/project/pip/)
@@ -12,3 +13,6 @@ To be able to use this script, you need a google application created [here](http
 *  For the `Google Spreadsheets API`, you will get a file, that contains a JSON objet (you can follow [this tutorial](https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html) to be sure to do it right). You sould rename that file `client.secret.json` and place it alongside the `main.py` file.
 *  For the `Youtube API`, you will simply get a OAuth2 token, that you sould be putting in a `client.secret.txt`, alongside `main.py`.
 After that, simply execute the script using `python main.py`.
+
+#Important:
+As the YouTube and Google SpreadSheet API will surely change in the future, I will probably not update this script. This was a script I made for a very specific purpose, and I will probably not feel the need to update it anymore. You are, however, free and encouraged to make pull requests to update it yourself.
